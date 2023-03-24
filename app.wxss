@@ -1,0 +1,39 @@
+/**app.wxss**/
+@import "./styles/iconfont.wxss";
+
+
+/* 在微信小程序不支持通配符 * */
+page,
+view,
+text,
+swiper,
+spinner,
+swiper-item,
+image,
+navigator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+ 主题颜色
+ 1. less 中存在 变量这个知识
+ 2. 原生的css和wxss也支持变量
+ */
+
+ page{
+  /* 定义主题颜色 */
+  --themeColor: #eb4450;
+
+  
+  /* 统一字体 */
+  font-size:28rpx;
+ }
+
+ image{
+  width:100%;
+ }
+
+
+

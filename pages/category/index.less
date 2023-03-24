@@ -1,0 +1,69 @@
+/* pages/category/index.wxss */
+page {
+    height: 100%;
+}
+
+.cates {
+    height: 100%;
+
+    .cates_container {
+
+        // less中使用calc要注意 加~' 内容 '   运算符左右要加空格
+        height: ~ 'calc(100vh - 90rpx)';
+        display: flex;
+
+        .left_menu {
+            // 子项变成flex 默认高度100%
+            flex: 2;
+            // background-color: antiquewhite;
+
+            .menu_item{
+                height:80rpx;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30rpx;   
+            }
+
+            .active{
+                color: var(--themeColor);
+                border-right: 5rpx solid currentColor;
+            }
+        }
+
+        .right_content {
+            flex: 5;
+            // background-color: aquamarine;
+            .goods_group{
+                .goods_title{
+                    height:80rpx;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .delimiter{
+                        color:#ccc;
+                        padding: 0 10rpx;
+                    }
+                    .title{
+                        
+                    }
+                }
+                .goods_list{
+                    display: flex;
+                    flex-wrap: wrap;
+                    navigator{
+                        width:33.3%;
+                        text-align: center;
+                        image{
+                            width:50%;
+                        }
+                        .goods_name{
+
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
