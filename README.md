@@ -10,7 +10,7 @@ request 自己的接口帮助库
 
 页面
 index 首页
-category 费雷目录
+category 分类目录
 goods_list 商品列表页面
 goods_detail 商品详情页
 cart 购物车页面
