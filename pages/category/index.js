@@ -117,5 +117,6 @@ Page({
       // 重新设置 右侧内容的scroll-view标签距离顶部的距离
       scrollTop: 0,
     })
-  }
+  },
+
 })

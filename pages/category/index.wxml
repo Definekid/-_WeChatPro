@@ -10,8 +10,7 @@
         wx:key="*this"
         bindtap="handleItemTap"
         data-index="{{index}}"
-        >
-        
+        > 
       {{item}}
         </view>
         </scroll-view>
