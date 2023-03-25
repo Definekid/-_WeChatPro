@@ -1,9 +1,13 @@
-// components/tabs/tabs.js
+// components/Tabs/Tabs.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
+    tabs: {
+      type: Array,
+      value: []
+    }
 
   },
 
@@ -18,6 +22,13 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    handleItemTap(e) {
+      // 1. 获取点击的索引
+      const { index } = e.currentTarget.dataset;
+      // console.log(index);
+      
+      // 2 触发父组件中的事件自定义
+      this.triggerEvent("tabsItemChange", { index });
+    },
   }
 })
