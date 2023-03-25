@@ -20,6 +20,11 @@
     "navigationBarTitleText": "购物商城",
     "navigationBarTextStyle": "white"
   },
+  "requiredPrivateInfos": [
+    "getFuzzyLocation",
+    "choosePoi",
+    "chooseAddress"
+  ],
   "tabBar": {
     "color": "#999",
     "selectedColor": "#ff2d4a",

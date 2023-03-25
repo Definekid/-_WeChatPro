@@ -28,6 +28,20 @@
           "query": "goods_id=43986",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "pages/cart/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "支付",
+          "pathName": "pages/pay/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
