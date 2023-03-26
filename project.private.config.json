@@ -42,6 +42,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "授权",
+          "pathName": "pages/auth/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

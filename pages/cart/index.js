@@ -105,7 +105,7 @@ Page({
   },
 
   // 商品选中
-  handleItemChange() {
+  handleItemChange(e) {
     // 获取被修改的商品的id
     const goods_id = e.currentTarget.dataset.id;
     // 获取购物车数组
