@@ -54,6 +54,7 @@ Page({
     getSwiperList() {
         request({ url: '/home/swiperdata' })
             .then(result => {
+                result.forEach((v, i) => { result[i].navigator_url = v.navigator_url.replace('main', 'index'); });
                 this.setData({
                     swiperList: result
                 })
